@@ -25,4 +25,4 @@
 - [Exercsie 2.21](02_21.md).
 - [Exercsie 2.22](02_22.md).
 - [Exercsie 2.23](02_23.md).
-- [Exercsie 2.24](02_25.md).
+- [Exercsie 2.24](02_24.md).

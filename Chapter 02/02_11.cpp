@@ -2,7 +2,9 @@
 
 #include <iostream>         // includes the required header files
 
-using namespace std;        
+using std::cin;
+using std::cout;
+using std::endl;        
 
 int main()
 {

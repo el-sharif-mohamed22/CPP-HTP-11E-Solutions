@@ -12,3 +12,6 @@
 - [Exercise 2.9 (State the order of evaluation of the operators)](02_09.md).
 - [Exercise 2.10 (Write a statement (or comment))](02_10.md).
 - [Exercise 2.11 (write a complete program)](02_11.md).
+- [Exercise 2.12 (Arithmetic, write a program)](02_12.md).
+- [Exercise 2.13 (Comparing Integers, Write a program)](02_13.md).
+- [Exercise 2.14 (Arithmetic, Smallest and Largest)](02_14.md).

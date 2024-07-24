@@ -1,48 +1,31 @@
-// Program that gets three integers,
-// Prints the sum, average, product, smallest and largest of these numbers.
+// Program that gets two integers, 
+// Then prints the larger, or equal.
 
 #include <iostream>
+#include <string>
 
 using std::cout;
 using std::cin;
 
 int main() {
 
-    cout << "Input three different integers: ";
+    cout << "Enter two numbers: ";
 
     int num1{};
     int num2{};
-    int num3{};
-    cin >> num1 >> num2 >> num3;
+    cin >> num1 >> num2;
 
-    int sum{num1 + num2 + num3};
-    cout << "Sum is " << sum << '\n';
-
-    int average{sum / 3};
-    cout << "Average is " << average << '\n';
-
-    int product{num1 * num2 * num3};
-    cout << "Product is " << product << '\n';
-
-    // Calculating the smallest
-    int smallest{num1};
-    if (smallest > num2) {
-        smallest = num2;
+    if (num1 > num2) {
+        cout << num1 << " is larger\n";
     }
-    if (smallest > num3) {
-        smallest = num3;
-    }
-    cout << "Smallest is " << smallest << '\n';
 
-    // Calculating the largest
-    int largest{num1};
-    if (largest < num2) {
-        largest = num2;
+    if (num2 > num1) {
+        cout << num2 << " is larger\n";
     }
-    if (largest < num3) {
-        largest = num3;
+
+    if (num1 == num2) {
+        cout << "These numbers are equal.\n";
     }
-    cout << "Largest is " << largest << '\n';
 
     return 0;
 }

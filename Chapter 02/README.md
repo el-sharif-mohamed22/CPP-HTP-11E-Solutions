@@ -13,5 +13,8 @@
 - [Exercise 2.10 (Write a statement (or comment))](02_10.md).
 - [Exercise 2.11 (write a complete program)](02_11.md).
 - [Exercise 2.12 (Arithmetic, write a program)](02_12.md).
-- [Exercise 2.13 (Comparing Integers, Write a program)](02_13.md).
-- [Exercise 2.14 (Arithmetic, Smallest and Largest)](02_14.md).
+- [Exercise 2.13 (Printing, write a program that prints the numbers)](02_13.md).
+- [Exercise 2.14 (Comparing Integers, Write a program)](02_14.md).
+- [Exercise 2.15 (Arithmetic, Smallest and Largest)](02_15.md).
+- [Exercise 2.16 (Diameter, Circumference and Area of a Circle)](02_16.md).
+- [Exercise 2.17 (What does the following code print?)](02_17.md).

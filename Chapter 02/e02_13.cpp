@@ -1,31 +1,29 @@
-// Program that gets two integers, 
-// Then prints the larger, or equal.
+// Program that prints the number 1 to 4 on the same line with several ways.
 
 #include <iostream>
-#include <string>
 
 using std::cout;
 using std::cin;
 
 int main() {
 
-    cout << "Enter two numbers: ";
+    cout << "Using one stream insertion operator.\n";
+    cout << "1 2 3 4\n";
+    cout << "*********************************\n";
 
-    int num1{};
-    int num2{};
-    cin >> num1 >> num2;
 
-    if (num1 > num2) {
-        cout << num1 << " is larger\n";
-    }
+    cout << "Using four stream insertion operator.\n";
+    cout << "1" << " 2" << " 3" << " 4\n";
+    cout << "*********************************\n";
 
-    if (num2 > num1) {
-        cout << num2 << " is larger\n";
-    }
 
-    if (num1 == num2) {
-        cout << "These numbers are equal.\n";
-    }
+    cout << "Using four statements\n";
+    cout << 1;
+    cout << " " << 2;
+    cout << " " << 3;
+    cout << " " << 4 << '\n';
+
+
 
     return 0;
 }

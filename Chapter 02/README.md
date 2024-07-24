@@ -18,3 +18,5 @@
 - [Exercise 2.15 (Arithmetic, Smallest and Largest)](02_15.md).
 - [Exercise 2.16 (Diameter, Circumference and Area of a Circle)](02_16.md).
 - [Exercise 2.17 (What does the following code print?)](02_17.md).
+- [Exercise 2.18 (Largest and Smallest Integers, write a program)](02_18.md).
+- [Exercise 2.19 (Odd or Even, write a program)](02_19.md).

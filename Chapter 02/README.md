@@ -20,3 +20,9 @@
 - [Exercise 2.17 (What does the following code print?)](02_17.md).
 - [Exercise 2.18 (Largest and Smallest Integers, write a program)](02_18.md).
 - [Exercise 2.19 (Odd or Even, write a program)](02_19.md).
+- [Exercise 2.20 (Multiples, write a program)](02_20.md).
+- [Exercise 2.21 (Checkerboard Pattern)](02_21.md).
+- [Exercise 2.22 (Integer Equivalent of a Character, Write a program)](02_22.md).
+- [Exercise 2.23 (Digits of an Integer, Write a program)](02_23.md).
+- [Exercise 2.24 (Table)](02_24.md).
+

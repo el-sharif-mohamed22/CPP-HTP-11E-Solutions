@@ -3,70 +3,59 @@
 
 #include <iostream>
 
-using std::cout;
 using std::cin;
+using std::cout;
 
-int main() {
+int main()
+{
 
     cout << "integer" << '\t' << "square" << '\t' << "cube" << '\n';
 
     int counter{0};
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
-    cout << counter << '\t' 
-         << counter * counter << '\t' 
+    cout << counter << '\t' << counter * counter << '\t'
          << counter * counter * counter << '\n';
     counter = counter + 1;
 
     return 0;
 }
-

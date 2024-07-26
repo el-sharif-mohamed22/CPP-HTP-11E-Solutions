@@ -3,10 +3,11 @@
 
 #include <iostream>
 
-using std::cout;
 using std::cin;
+using std::cout;
 
-int main() {
+int main()
+{
 
     cout << "Enter a character: ";
 

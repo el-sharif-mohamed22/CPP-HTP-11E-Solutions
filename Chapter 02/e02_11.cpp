@@ -1,11 +1,13 @@
 // A program that calculates the product of three integers.
+
 #include <iostream>
 
-using std::cout;
 using std::cin;
+using std::cout;
 using std::endl;
 
-int main() {
+int main()
+{
 
     int x{0};
     int y{0};

@@ -3,10 +3,11 @@
 
 #include <iostream>
 
-using std::cout;
 using std::cin;
+using std::cout;
 
-int main() {
+int main()
+{
 
     cout << "Enter two integers: ";
 
@@ -18,14 +19,16 @@ int main() {
     cout << "The sum: " << num1 << " + " << num2 << " = " << sum << '\n';
 
     int product{num1 * num2};
-    cout << "The product: " << num1 << " * " << num2 << " = " << product << '\n';
+    cout << "The product: " << num1 << " * " << num2 << " = " << product
+         << '\n';
 
     int difference{num1 - num2};
-    cout << "The difference: " << num1 << " - " << num2 << " = " << difference << '\n';
+    cout << "The difference: " << num1 << " - " << num2 << " = " << difference
+         << '\n';
 
     int quotient{num1 % num2};
-    cout << "The quotient: " << num1 << " % " << num2 << " = " << quotient << '\n';
+    cout << "The quotient: " << num1 << " % " << num2 << " = " << quotient
+         << '\n';
 
     return 0;
 }
-

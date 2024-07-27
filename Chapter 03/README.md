@@ -20,3 +20,10 @@
 - [Exercise 3.16 (Square of Asterisks)](03_16.md).
 - [Exercise 3.17 (Palindromes)](03_17.md).
 - [Exercise 3.18 (Printing the Decimal Equivalent of a Binary Number)](03_18.md).
+- [Exercise 3.19 (Checkerboard Pattern of Asterisks)](03_19.md).
+- [Exercise 3.20 (Multiples of 2 with an Infinite Loop)](03_20.md).
+- [Exercise 3.21 (Calculating a Circle's Diameter, Circumference and Area)](03_21.md).
+- [Exercise 3.22 (What's wrong with the following statement?)](03_22.md).
+- [Exercise 3.23 (Sides of a Triangle)](03_23.md).
+- [Exercise 3.24 (Sides of a Right Triangle)](03_24.md).
+- [Exercise 3.25 (Factorial)](03_25.md).

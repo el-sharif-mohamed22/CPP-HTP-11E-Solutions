@@ -27,3 +27,5 @@
 - [Exercise 3.23 (Sides of a Triangle)](03_23.md).
 - [Exercise 3.24 (Sides of a Right Triangle)](03_24.md).
 - [Exercise 3.25 (Factorial)](03_25.md).
+- [Exercise 3.26 (Enforcing Privacy with Cryptography)](03_26.md).
+- [Exercise 3.27 (Other Boost Multiprecision Arithmetic Operations)](03_27.md).

@@ -11,12 +11,12 @@ int main()
     int hoursWorked{0};
     double hourlyRate{0};
     double salary{0};
-    double additionalSalary{0};
 
     cout << "Enter hours worked (-1 to end): ";
     cin >> hoursWorked;
 
     while(hoursWorked > 0) {
+        double additionalSalary{0};
 
         cout << "Enter hourly rate of the employee (-1 to end): ";
         cin >> hourlyRate;

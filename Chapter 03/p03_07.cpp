@@ -8,9 +8,13 @@ using std::endl;
 
 int main()
 {
-    int counter{0};
+    int counter{1};
     int number{0};
     int largest{0};
+
+    cout << "Enter a number: ";
+    cin >> number;
+    largest = number;
 
     while(counter < 10) {
         cout << "Enter a number: ";

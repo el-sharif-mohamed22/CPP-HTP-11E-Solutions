@@ -17,13 +17,8 @@ int main()
 
     int copy{number};
 
-    while(counter > 0) {
-        int ten{1};
-
-        for(int i = 1; i < counter; ++i)
-            ten *= 10;
-
-        int digit = number / ten;
+    while(number > 0) {
+        int digit = number % 10;
         check = check * 10 + digit;
         number /= 10;
         counter--;

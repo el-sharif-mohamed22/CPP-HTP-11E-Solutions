@@ -26,3 +26,6 @@
 - [Exercsie 3.22](03_22.md).
 - [Exercsie 3.23](03_23.md).
 - [Exercsie 3.24](03_24.md).
+- [Exercsie 3.25](03_25.md).
+- [Exercsie 3.26](03_26.md).
+- [Exercsie 3.27](03_27.md).

@@ -2,13 +2,30 @@
 
 #include <iostream>
 
+using std::cin;
+using std::cout;
+
 int main()
 {
-    for(int i = 0; i < 4; ++i) {
-        if(i == 0 || i == 3) 
-            std::cout << "****\n";
-        else
-            std::cout << "*  *\n";
+    int n{};
+
+    cout << "Enter an integer: ";
+    cin >> n;
+
+    for(int i = 0; i < n; ++i) {
+        if(i == 0 || i == n - 1) {
+            for(int j = 0; j < n; ++j)
+                cout << "*";
+
+            cout << "\n";
+        } else {
+            cout << "*";
+
+            for(int j = 0; j < n - 2; ++j) {
+                cout << " ";
+            }
+            cout << "*\n";
+        }
     }
 
     return 0;

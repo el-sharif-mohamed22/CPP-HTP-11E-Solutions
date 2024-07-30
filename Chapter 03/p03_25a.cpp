@@ -14,10 +14,11 @@ int main()
     cout << "Enter a non-negative integer: ";
     cin >> n;
 
-    cpp_int factorial;
+    cpp_int factorial = 1;
 
     while(n > 0) {
-        factorial *= n--;
+        factorial *= n;
+        n--;
     }
 
     cout << factorial;

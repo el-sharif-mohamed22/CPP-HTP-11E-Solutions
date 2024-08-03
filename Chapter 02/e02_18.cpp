@@ -3,10 +3,11 @@
 
 #include <iostream>
 
-using std::cout;
 using std::cin;
+using std::cout;
 
-int main() {
+int main()
+{
 
     cout << "Enter five integers: ";
 
@@ -18,34 +19,41 @@ int main() {
 
     cin >> num1 >> num2 >> num3 >> num4 >> num5;
 
-
     int smallest{num1};
-    if (num2 < smallest) {
+    if (num2 < smallest)
+    {
         smallest = num2;
     }
-    if (num3 < smallest) {
+    if (num3 < smallest)
+    {
         smallest = num3;
     }
-    if (num4 < smallest) {
+    if (num4 < smallest)
+    {
         smallest = num4;
     }
-    if (num5 < smallest) {
+    if (num5 < smallest)
+    {
         smallest = num5;
     }
 
     cout << "Smallest in the group is " << smallest << '\n';
 
     int largest{num1};
-    if (num2 > largest) {
+    if (num2 > largest)
+    {
         largest = num2;
     }
-    if (num3 > largest) {
+    if (num3 > largest)
+    {
         largest = num3;
     }
-    if (num4 > largest) {
+    if (num4 > largest)
+    {
         largest = num4;
     }
-    if (num5 > largest) {
+    if (num5 > largest)
+    {
         largest = num5;
     }
 

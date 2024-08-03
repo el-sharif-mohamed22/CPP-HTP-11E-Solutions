@@ -5,18 +5,21 @@
 using std::cin;
 using std::cout;
 
-int main() {
+int main()
+{
 
     cout << "Enter an integer: ";
 
     int number{};
     cin >> number;
 
-    if (number % 2 == 0) {
+    if (number % 2 == 0)
+    {
         cout << "Even.\n";
     }
 
-    if (number % 2 != 0) {
+    if (number % 2 != 0)
+    {
         cout << "Odd.\n";
     }
 

@@ -9,30 +9,23 @@ using std::cout;
 int main()
 {
 
-    cout << "Enter the number of terms in the summation (1 - 10): ";
-    int accuracy{};
-    cin >> accuracy;
+    cout << "Enter the number of terms in the summation (1 - 20): ";
+    int terms{};
+    cin >> terms;
 
-    double eValue{0.0};
-    int termNumber{0};
+    long double result{1.0};
+    int term{1};
+    long long factorial{1};
 
-    while (termNumber < accuracy)
+    while (term < terms)
     {
-
-        long long factorial{1};
-        int copyOfTermNumber{termNumber};
-        while (copyOfTermNumber >= 2)
-        {
-            factorial *= copyOfTermNumber;
-            --copyOfTermNumber;
-        }
-
-        double term{1.0 / factorial};
-        eValue += term;
-
-        ++termNumber;
+        factorial *= term;
+        result += 1.0 / factorial;
+        ++term;
     }
-    cout << std::fixed;
-    cout << "Estimation of value of e with " << accuracy << " terms is "
-         << eValue << '\n';
+    cout << std::setprecision(10) << std::fixed;
+    cout << "Estimation of value of e with " << terms << " terms is " << result
+         << '\n';
+
+    return 0;
 }

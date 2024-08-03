@@ -47,4 +47,6 @@ int main()
 
     cout << "Largest number is " << largest << "\nSecond largest is "
          << secondLargest;
+
+    return 0;
 }

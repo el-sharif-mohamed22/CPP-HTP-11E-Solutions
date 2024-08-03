@@ -39,4 +39,6 @@ int main()
     cout << "The sides " << sideA << ", " << sideB << ", " << sideC;
     cout << (validTriangle ? " Form a triangle\n" : " Does NOT form a triangle")
          << '\n';
+
+    return 0;
 }

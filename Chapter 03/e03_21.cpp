@@ -20,4 +20,6 @@ int main()
     cout << "Circle's Diameter is " << radius * 2;
     cout << "\nCircle's Circumference is " << radius * 2 * pi;
     cout << "\nCircle's Area is " << radius * radius * pi << std::endl;
+
+    return 0;
 }

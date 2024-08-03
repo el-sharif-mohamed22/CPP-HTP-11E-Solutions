@@ -37,4 +37,6 @@ int main()
     }
 
     cout << number << (isPalindrome ? " is" : " is NOT") << " a palindrome.\n";
+
+    return 0;
 }

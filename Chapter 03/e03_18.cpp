@@ -29,4 +29,6 @@ int main()
 
     cout << "Decimal equivalent of " << binaryNumber << "\nIs " << decimalNumber
          << '\n';
+
+    return 0;
 }

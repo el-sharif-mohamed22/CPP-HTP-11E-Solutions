@@ -14,36 +14,28 @@ int main()
     cin >> x;
 
     cout << "Enter the number of terms in the summations: ";
-    int accuracy{};
-    cin >> accuracy;
+    int terms{};
+    cin >> terms;
 
-    int numberOfTerms{0};
-
-    long double result{0.0};
-    while (numberOfTerms < accuracy)
+    int term{1};
+    long double result{1.0};
+    long long numerator{1};
+    long long denominator{1};
+    while (term < terms)
     {
-        // Calculating the numerator which is x^(accuracy - 1)
-        long long numerator{1};
-        int power{0};
-        while (power < numberOfTerms)
-        {
-            numerator *= x;
-            ++power;
-        }
+        // Calculating the numerator which is x^term
+        numerator *= x;
 
-        // Calculating the denominator which is (accuracy - 1)!
-        long long denominator{1};
-        int n{numberOfTerms};
-        while (n >= 2)
-        {
-            denominator *= n;
-            --n;
-        }
+        // Calculating the denominator which is term!
+        denominator *= term;
 
         result += static_cast<long double>(numerator) / denominator;
-        ++numberOfTerms;
+        ++term;
     }
 
-    cout << std::fixed;
-    cout << "e ^ " << x << " = " << result << '\n';
+    cout << std::setprecision(10) << std::fixed;
+    cout << "e ^ " << x << " with " << terms << " terms " << " = " << result
+         << '\n';
+
+    return 0;
 }

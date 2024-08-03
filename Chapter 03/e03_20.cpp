@@ -17,4 +17,6 @@ int main()
         ++power;
         product *= 2;
     }
+
+    return 0;
 }

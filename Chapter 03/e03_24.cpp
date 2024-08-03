@@ -21,6 +21,28 @@ int main()
     int sideC{};
     cin >> sideC;
 
+    bool validTriangle{true};
+
+    if (sideA + sideB <= sideC)
+    {
+        validTriangle = false;
+    }
+    if (sideA + sideC <= sideB)
+    {
+        validTriangle = false;
+    }
+    if (sideB + sideC <= sideA)
+    {
+        validTriangle = false;
+    }
+
+    if (!validTriangle)
+    {
+        cout << "The sides " << sideA << ", " << sideB << ", " << sideC
+             << " Does NOT form a triangle" << '\n';
+        return 0;
+    }
+
     bool validRightTriangle{false};
 
     if (sideA * sideA + sideB * sideB == sideC * sideC)
@@ -40,4 +62,6 @@ int main()
     cout << (validRightTriangle ? " Forms a right triangle"
                                 : " does NOT form a right triangle")
          << "\n";
+
+    return 0;
 }

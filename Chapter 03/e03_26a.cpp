@@ -26,4 +26,6 @@ int main()
 
     cout << "Encryption of " << message << " is " << digit2 << digit1 << digit4
          << digit3 << '\n';
+
+    return 0;
 }

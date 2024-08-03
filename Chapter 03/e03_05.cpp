@@ -24,4 +24,6 @@ int main()
         cout << "\n\nEnter sales in dollars (-1 to end): ";
         cin >> sales;
     }
+
+    return 0;
 }

@@ -35,4 +35,6 @@ int main()
 
         ++row;
     }
+
+    return 0;
 }

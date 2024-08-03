@@ -25,4 +25,6 @@ int main()
     }
 
     cout << "Factorial of " << n << " = " << product << "\n";
+
+    return 0;
 }

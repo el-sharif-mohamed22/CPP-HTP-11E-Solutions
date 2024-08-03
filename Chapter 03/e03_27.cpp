@@ -35,4 +35,6 @@ int main()
     cout << "\n\nUSING BOOST MULTIPRECISION LIBRARY FUNCTIONS PW AND SQRT"
          << "\nvalue1 squared: " << pow(value1, 2)
          << "\nsquare root of value4: " << sqrt(value4) << "\n";
+
+    return 0;
 }

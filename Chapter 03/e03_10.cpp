@@ -39,4 +39,6 @@ int main()
     {
         cout << "Bonus to instructor!\n";
     }
+
+    return 0;
 }

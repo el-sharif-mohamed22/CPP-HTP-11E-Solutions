@@ -49,4 +49,6 @@ int main()
         cout << "\n\nEnter Account Number (or -1 to quit): ";
         cin >> accountNumber;
     }
+
+    return 0;
 }

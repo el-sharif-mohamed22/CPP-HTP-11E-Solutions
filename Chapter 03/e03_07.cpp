@@ -25,4 +25,6 @@ int main()
     }
 
     cout << "\nThe largest number is " << largest;
+
+    return 0;
 }

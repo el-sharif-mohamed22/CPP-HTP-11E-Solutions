@@ -43,4 +43,6 @@ int main()
         cout << "\n\nEnter hours worked (-1 to end): ";
         cin >> hoursWorked;
     }
+
+    return 0;
 }
